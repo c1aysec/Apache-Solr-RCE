@@ -1,2 +1,2 @@
-# -
-最新漏洞复现，exp编写
+# Apache Solr rce
+
