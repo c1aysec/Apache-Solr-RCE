@@ -3,7 +3,7 @@
 ### 复现过程
 
 step1:
-通过Solr未授权访问，访问Core Admin,获取Path
+通过Solr未授权访问，访问Core Admin，获取Path
 ![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031164421.png)
 
 step2:
@@ -36,3 +36,9 @@ Host: xxx:8983
 User-Agent: xxx
 ```
 ![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031165755.png)
+
+### python exp
+
+使用方法：
+python solr_rce.py url "command"
+![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031170416.png)
