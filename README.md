@@ -4,7 +4,6 @@
 
 step1:
 通过Solr未授权访问，访问Core Admin，获取Path
-
 ![Image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031164421.png)
 
 step2:
